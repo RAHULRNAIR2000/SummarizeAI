@@ -1,5 +1,5 @@
 // Replace 'YOUR_API_TOKEN' with your actual Hugging Face API token
-const API_TOKEN = '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';
+const API_TOKEN = '';
 const API_URL = 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn';
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
